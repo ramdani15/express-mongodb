@@ -40,7 +40,7 @@ exports.updateBootcamp = (req, res, next) => {
 
 // @desc        Delete bootcamp
 // @route       /api/v1/bootcamps
-// @access      Public
+// @access      Private
 exports.deleteBootcamp = (req, res, next) => {
     res.status(200).json(( {
         success: true,
