@@ -5,6 +5,9 @@ const morgan = require('morgan');
 const connectDB = require('./config/db');
 const app = express();
 
+// Body parser
+app.use(express.json());
+
 // Routes file
 const bootcamps = require('./routes/bootcamps');
 
