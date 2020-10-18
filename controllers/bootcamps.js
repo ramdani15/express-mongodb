@@ -1,3 +1,4 @@
+const ErrorResponse = require('../utils/errorResponse');
 const Bootcamp = require('../models/Bootcamp');
 
 let response = {
@@ -25,10 +26,7 @@ exports.getBootcamps = async (req, res, next) => {
         response.count = bootcamps.length;
         response.data = data;
     } catch (err) {
-        response['code'] = 400;
-        response['status'] = false;
-        response['message'] = err.message;
-        response['data'] = [];
+        next(err);
     }
     res.status(response['code']).json((response));
 
@@ -48,10 +46,7 @@ exports.createBootcamp = async (req, res, next) => {
         response['message'] = "success";
         response['data'] = bootcamp;
     } catch (err) {
-        response['code'] = 400;
-        response['status'] = false;
-        response['message'] = err.message;
-        response['data'] = [];
+        next(err);
     }
     res.status(response['code']).json((response))
 }
@@ -67,13 +62,11 @@ exports.getBootcamp = async (req, res, next) => {
         response['status'] = true;
         response['message'] = "success";
         response['data'] = bootcamp;
+
+        res.status(response['code']).json((response))
     } catch (err) {
-        response['code'] = 400;
-        response['status'] = false;
-        response['message'] = err.message;
-        response['data'] = [];
+        next(err);
     }
-    res.status(response['code']).json((response))
 }
 
 // @desc        Update bootcamp
@@ -91,10 +84,7 @@ exports.updateBootcamp = async (req, res, next) => {
         response['message'] = "success";
         response['data'] = bootcamp;
     } catch (err) {
-        response['code'] = 400;
-        response['status'] = false;
-        response['message'] = err.message;
-        response['data'] = [];   
+        next(err);
     }
     res.status(response['code']).json((response))
 }
@@ -111,10 +101,7 @@ exports.deleteBootcamp = async (req, res, next) => {
         response['message'] = "success";
         response['data'] = [];
     } catch (err) {
-        response['code'] = 400;
-        response['status'] = false;
-        response['message'] = err.message;
-        response['data'] = [];   
+        next(err);
     }
-    res.status(response['code']).json((response))
+    next(err);
 }
