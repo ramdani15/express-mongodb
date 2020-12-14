@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Bootcamp dummy1",
+        "description": "Desc Bootcamp1",
+        "website": "http://bootcamp1.com",
+        "phone": "028310",
+        "email": "bootcamp1@gmail.com",
+        "address": "address Bootcamp1",
+        "careers": ["Web Development", "UI/UX"],
+        "housing": true,
+        "jobAssistance": true,
+        "jobGuarantee": true,
+        "acceptGi": true
+    },
+    {
+        "name": "Bootcamp dummy2",
+        "description": "Desc Bootcamp2",
+        "website": "http://bootcamp2.com",
+        "phone": "028310",
+        "email": "bootcamp2@gmail.com",
+        "address": "address Bootcamp2",
+        "careers": ["Web Development", "UI/UX"],
+        "housing": true,
+        "jobAssistance": true,
+        "jobGuarantee": true,
+        "acceptGi": true
+    },
+    {
+        "name": "Bootcamp dummy3",
+        "description": "Desc Bootcamp3",
+        "website": "http://bootcamp3.com",
+        "phone": "028310",
+        "email": "bootcamp3@gmail.com",
+        "address": "address Bootcamp3",
+        "careers": ["Web Development", "UI/UX"],
+        "housing": true,
+        "jobAssistance": true,
+        "jobGuarantee": true,
+        "acceptGi": true
+    },
+    {
+        "name": "Bootcamp dummy4",
+        "description": "Desc Bootcamp4",
+        "website": "http://bootcamp4.com",
+        "phone": "028310",
+        "email": "bootcamp4@gmail.com",
+        "address": "address Bootcamp4",
+        "careers": ["Web Development", "UI/UX"],
+        "housing": true,
+        "jobAssistance": true,
+        "jobGuarantee": true,
+        "acceptGi": true
+    }
+]
