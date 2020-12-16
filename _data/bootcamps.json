@@ -10,7 +10,8 @@
         "housing": true,
         "jobAssistance": true,
         "jobGuarantee": true,
-        "acceptGi": true
+        "acceptGi": true,
+        "averageCost": 8000
     },
     {
         "name": "Bootcamp dummy2",
@@ -23,7 +24,8 @@
         "housing": true,
         "jobAssistance": true,
         "jobGuarantee": true,
-        "acceptGi": true
+        "acceptGi": true,
+        "averageCost": 14000
     },
     {
         "name": "Bootcamp dummy3",
@@ -36,7 +38,8 @@
         "housing": true,
         "jobAssistance": true,
         "jobGuarantee": true,
-        "acceptGi": true
+        "acceptGi": true,
+        "averageCost": 12000
     },
     {
         "name": "Bootcamp dummy4",
@@ -49,6 +52,7 @@
         "housing": true,
         "jobAssistance": true,
         "jobGuarantee": true,
-        "acceptGi": true
+        "acceptGi": true,
+        "averageCost": 10000
     }
 ]
