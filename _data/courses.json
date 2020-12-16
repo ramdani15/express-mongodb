@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Course 11",
+        "description": "Desc Course11",
+        "weeks": 3,
+        "tuition": 8000,
+        "minimumSkill": "beginner",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abefe"
+    },
+    {
+        "title": "Course 12",
+        "description": "Desc Course12",
+        "weeks": 4,
+        "tuition": 10000,
+        "minimumSkill": "intermediate",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abefe"
+    },
+    {
+        "title": "Course 21",
+        "description": "Desc Course21",
+        "weeks": 3,
+        "tuition": 8000,
+        "minimumSkill": "beginner",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abeff"
+    },
+    {
+        "title": "Course 22",
+        "description": "Desc Course22",
+        "weeks": 4,
+        "tuition": 10000,
+        "minimumSkill": "intermediate",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abeff"
+    },
+    {
+        "title": "Course 31",
+        "description": "Desc Course31",
+        "weeks": 3,
+        "tuition": 8000,
+        "minimumSkill": "beginner",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abf00"
+    },
+    {
+        "title": "Course 32",
+        "description": "Desc Course32",
+        "weeks": 4,
+        "tuition": 10000,
+        "minimumSkill": "intermediate",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abf00"
+    },
+    {
+        "title": "Course 41",
+        "description": "Desc Course41",
+        "weeks": 3,
+        "tuition": 8000,
+        "minimumSkill": "beginner",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abf01"
+    },
+    {
+        "title": "Course 42",
+        "description": "Desc Course42",
+        "weeks": 4,
+        "tuition": 10000,
+        "minimumSkill": "intermediate",
+        "scholarshipAvailable": true,
+        "bootcamp": "5fd9661ce1f21a7e918abf01"
+    }
+]

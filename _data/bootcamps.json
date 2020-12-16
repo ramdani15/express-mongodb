@@ -1,5 +1,6 @@
 [
     {
+        "_id": "5fd9661ce1f21a7e918abefe",
         "name": "Bootcamp dummy1",
         "description": "Desc Bootcamp1",
         "website": "http://bootcamp1.com",
@@ -14,6 +15,7 @@
         "averageCost": 8000
     },
     {
+        "_id": "5fd9661ce1f21a7e918abeff",
         "name": "Bootcamp dummy2",
         "description": "Desc Bootcamp2",
         "website": "http://bootcamp2.com",
@@ -28,6 +30,7 @@
         "averageCost": 14000
     },
     {
+        "_id": "5fd9661ce1f21a7e918abf00",
         "name": "Bootcamp dummy3",
         "description": "Desc Bootcamp3",
         "website": "http://bootcamp3.com",
@@ -42,6 +45,7 @@
         "averageCost": 12000
     },
     {
+        "_id": "5fd9661ce1f21a7e918abf01",
         "name": "Bootcamp dummy4",
         "description": "Desc Bootcamp4",
         "website": "http://bootcamp4.com",
