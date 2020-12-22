@@ -12,26 +12,18 @@ exports.getCourses = AsyncHandler(async (req, res, next) => {
 
     if (req.params.bootcampId) {
         query = Course.find({bootcamp: req.params.bootcampId});
+        const courses = await query;
+        let response = {
+            "code": 200,
+            "status": true,
+            "message": "success",
+            "count": courses.length,
+            "data" : courses
+        }
+        res.status(response['code']).json((response));
     } else {
-        query = Course.find();
+        res.status(res.advancedResults.code || 200).json((res.advancedResults));
     }
-
-    query = query.populate({
-        path: 'bootcamp',
-        select: 'name description',
-    });
-
-    const courses = await query;
-
-    let response = {
-        "code": 200,
-        "status": true,
-        "message": "success",
-        "count": courses.length,
-        "data" : courses
-    }
-
-    res.status(response['code']).json((response));
 });
 
 // @desc        Get single course
