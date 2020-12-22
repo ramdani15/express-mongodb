@@ -74,9 +74,6 @@ exports.getBootcamps = AsyncHandler(async (req, res, next) => {
     }
 
     res.status(response['code']).json((response));
-
-    // delete count
-    delete response.count;
 });
 
 // @desc        Create new bootcamp
