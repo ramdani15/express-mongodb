@@ -7,7 +7,9 @@ const courseRouter = require('./courses');
 // Re-route into other resource routers
 router.use('/:bootcampId/courses', courseRouter);
 
-const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp } = require('../controllers/bootcamps');
+const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp, bootcampPhotoUplaod } = require('../controllers/bootcamps');
+
+router.use('/:id/photo', bootcampPhotoUplaod);
 
 router
     .route('/')
