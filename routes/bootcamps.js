@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const { protect } = require('../middlewares/auth');
+const { authorize, protect } = require('../middlewares/auth');
 
 // include other resource
 const courseRouter = require('./courses');
@@ -14,18 +14,18 @@ const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcam
 const Bootcamp = require('../models/Bootcamp');
 const advancedResults = require('../middlewares/advancedResults')
 
-router.route('/:id/photo').put(protect, bootcampPhotoUplaod);
+router.route('/:id/photo').put(protect, authorize('publisher', 'admin'), bootcampPhotoUplaod);
 // router.use('/:id/photo', bootcampPhotoUplaod);
 
 router
     .route('/')
     .get(advancedResults(Bootcamp, 'courses'), getBootcamps)
-    .post(protect, createBootcamp);
+    .post(protect, authorize('publisher', 'admin'), createBootcamp);
 
 router
     .route('/:id')
     .get(getBootcamp)
-    .put(protect, updateBootcamp)
-    .delete(protect, deleteBootcamp);
+    .put(protect, authorize('publisher', 'admin'), updateBootcamp)
+    .delete(protect, authorize('publisher', 'admin'), deleteBootcamp);
 
 module.exports = router;
