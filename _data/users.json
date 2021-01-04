@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "5fe2a150b2fad7ae32680666",
+        "role": "admin",
+        "name": "admin",
+        "email": "admin@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680667",
+        "role": "user",
+        "name": "ram1",
+        "email": "ram1@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680668",
+        "role": "publisher",
+        "name": "ram2",
+        "email": "ram2@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680669",
+        "role": "publisher",
+        "name": "ram3",
+        "email": "ram3@softwareseni.com",
+        "password": "123456"
+    }
+]
