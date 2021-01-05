@@ -6,7 +6,8 @@
         "tuition": 8000,
         "minimumSkill": "beginner",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abefe"
+        "bootcamp": "5fd9661ce1f21a7e918abefe",
+        "user": "5fe2a150b2fad7ae32680666"
     },
     {
         "title": "Course 12",
@@ -15,7 +16,8 @@
         "tuition": 10000,
         "minimumSkill": "intermediate",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abefe"
+        "bootcamp": "5fd9661ce1f21a7e918abefe",
+        "user": "5fe2a150b2fad7ae32680666"
     },
     {
         "title": "Course 21",
@@ -24,7 +26,8 @@
         "tuition": 8000,
         "minimumSkill": "beginner",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abeff"
+        "bootcamp": "5fd9661ce1f21a7e918abeff",
+        "user": "5fe2a150b2fad7ae32680667"
     },
     {
         "title": "Course 22",
@@ -33,7 +36,8 @@
         "tuition": 10000,
         "minimumSkill": "intermediate",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abeff"
+        "bootcamp": "5fd9661ce1f21a7e918abeff",
+        "user": "5fe2a150b2fad7ae32680667"
     },
     {
         "title": "Course 31",
@@ -42,7 +46,8 @@
         "tuition": 8000,
         "minimumSkill": "beginner",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abf00"
+        "bootcamp": "5fd9661ce1f21a7e918abf00",
+        "user": "5fe2a150b2fad7ae32680668"
     },
     {
         "title": "Course 32",
@@ -51,7 +56,8 @@
         "tuition": 10000,
         "minimumSkill": "intermediate",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abf00"
+        "bootcamp": "5fd9661ce1f21a7e918abf00",
+        "user": "5fe2a150b2fad7ae32680668"
     },
     {
         "title": "Course 41",
@@ -60,7 +66,8 @@
         "tuition": 8000,
         "minimumSkill": "beginner",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abf01"
+        "bootcamp": "5fd9661ce1f21a7e918abf01",
+        "user": "5fe2a150b2fad7ae32680669"
     },
     {
         "title": "Course 42",
@@ -69,6 +76,7 @@
         "tuition": 10000,
         "minimumSkill": "intermediate",
         "scholarshipAvailable": true,
-        "bootcamp": "5fd9661ce1f21a7e918abf01"
+        "bootcamp": "5fd9661ce1f21a7e918abf01",
+        "user": "5fe2a150b2fad7ae32680669"
     }
 ]
