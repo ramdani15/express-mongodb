@@ -49,6 +49,25 @@ exports.login = AsyncHandler(async (req, res, next) => {
     sendTokenResponse(user, 200, res);
 });
 
+// @desc        Log user out / clear cookie
+// @route       GET /api/v1/auth/logout
+// @access      Private
+exports.logout = AsyncHandler(async (req, res, next) => {
+    res.cookie('token', 'none', {
+        expire: new Date(Date.now() + 10 * 1000),
+        httpOnly: true,
+    })
+
+    let response = {
+        "code": 200,
+        "status": true,
+        "message": "success",
+        data: []
+    }
+
+    res.status(response.code).json(response);
+});
+
 
 // Get token from model, create cookie and send response
 const sendTokenResponse = (user, statusCode, res) => {
