@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Review 11",
+        "text": "text review12",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abefe",
+        "user": "5fe2a150b2fad7ae32680670"
+    },
+    {
+        "title": "Review 12",
+        "text": "text review12",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abefe",
+        "user": "5fe2a150b2fad7ae32680670"
+    },
+    {
+        "title": "Review 21",
+        "text": "text review21",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abeff",
+        "user": "5fe2a150b2fad7ae32680671"
+    },
+    {
+        "title": "Review 22",
+        "text": "text review22",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abeff",
+        "user": "5fe2a150b2fad7ae32680671"
+    },
+    {
+        "title": "Review 31",
+        "text": "text review31",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abf00",
+        "user": "5fe2a150b2fad7ae32680672"
+    },
+    {
+        "title": "Review 32",
+        "text": "text review32",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abf00",
+        "user": "5fe2a150b2fad7ae32680672"
+    },
+    {
+        "title": "Review 41",
+        "text": "text review41",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abf01",
+        "user": "5fe2a150b2fad7ae32680673"
+    },
+    {
+        "title": "Review 42",
+        "text": "text review42",
+        "rating": 8,
+        "bootcamp": "5fd9661ce1f21a7e918abf01",
+        "user": "5fe2a150b2fad7ae32680673"
+    }
+]

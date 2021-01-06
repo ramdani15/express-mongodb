@@ -3,12 +3,12 @@
         "_id": "5fe2a150b2fad7ae32680666",
         "role": "admin",
         "name": "admin",
-        "email": "ramdani@softwareseni.com",
+        "email": "admin@softwareseni.com",
         "password": "123456"
     },
     {
         "_id": "5fe2a150b2fad7ae32680667",
-        "role": "user",
+        "role": "publisher",
         "name": "ram1",
         "email": "ram1@softwareseni.com",
         "password": "123456"
@@ -25,6 +25,34 @@
         "role": "publisher",
         "name": "ram3",
         "email": "ram3@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680670",
+        "role": "user",
+        "name": "user1",
+        "email": "user1@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680671",
+        "role": "user",
+        "name": "user2",
+        "email": "user2@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680672",
+        "role": "user",
+        "name": "user3",
+        "email": "user3@softwareseni.com",
+        "password": "123456"
+    },
+    {
+        "_id": "5fe2a150b2fad7ae32680673",
+        "role": "user",
+        "name": "user4",
+        "email": "user4@softwareseni.com",
         "password": "123456"
     }
 ]
