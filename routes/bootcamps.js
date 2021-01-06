@@ -6,8 +6,10 @@ const { authorize, protect } = require('../middlewares/auth');
 
 // include other resource
 const courseRouter = require('./courses');
+const reviewRouter = require('./reviews');
 // Re-route into other resource routers
 router.use('/:bootcampId/courses', courseRouter);
+router.use('/:bootcampId/reviews', reviewRouter);
 
 const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp, bootcampPhotoUplaod } = require('../controllers/bootcamps');
 
