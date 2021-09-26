@@ -11,13 +11,13 @@ const reviewRouter = require('./reviews');
 router.use('/:bootcampId/courses', courseRouter);
 router.use('/:bootcampId/reviews', reviewRouter);
 
-const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp, bootcampPhotoUplaod } = require('../controllers/bootcamps');
+const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp, bootcampPhotoUpload } = require('../controllers/bootcamps');
 
 const Bootcamp = require('../models/Bootcamp');
 const advancedResults = require('../middlewares/advancedResults')
 
-router.route('/:id/photo').put(protect, authorize('publisher', 'admin'), bootcampPhotoUplaod);
-// router.use('/:id/photo', bootcampPhotoUplaod);
+router.route('/:id/photo').put(protect, authorize('publisher', 'admin'), bootcampPhotoUpload);
+// router.use('/:id/photo', bootcampPhotoUpload);
 
 router
     .route('/')

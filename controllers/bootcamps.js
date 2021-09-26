@@ -31,7 +31,7 @@ exports.createBootcamp = AsyncHandler(async (req, res, next) => {
         "code": 201,
         "status": true,
         "message": "success",
-        "data" : bootcamp
+        "data": bootcamp
     }
 
     res.status(response['code']).json((response))
@@ -51,7 +51,7 @@ exports.getBootcamp = AsyncHandler(async (req, res, next) => {
         "code": 200,
         "status": true,
         "message": "success",
-        "data" : bootcamp
+        "data": bootcamp
     }
 
     res.status(response['code']).json((response))
@@ -81,7 +81,7 @@ exports.updateBootcamp = AsyncHandler(async (req, res, next) => {
         "code": 200,
         "status": true,
         "message": "success",
-        "data" : bootcamp
+        "data": bootcamp
     }
 
     res.status(response['code']).json((response))
@@ -108,7 +108,7 @@ exports.deleteBootcamp = async (req, res, next) => {
         "code": 200,
         "status": true,
         "message": "success",
-        "data" : []
+        "data": []
     }
 
     res.status(response['code']).json((response))
@@ -117,7 +117,7 @@ exports.deleteBootcamp = async (req, res, next) => {
 // @desc        Upload photo bootcamp
 // @route       PUT /api/v1/bootcamps/:id/photo
 // @access      Private
-exports.bootcampPhotoUplaod = async (req, res, next) => {
+exports.bootcampPhotoUpload = async (req, res, next) => {
     const bootcamp = await Bootcamp.findById(req.params.id);
 
     if (!bootcamp) {
@@ -159,8 +159,8 @@ exports.bootcampPhotoUplaod = async (req, res, next) => {
             "code": 200,
             "status": true,
             "message": "success",
-            "data" : file.name
-        }    
+            "data": file.name
+        }
         res.status(response['code']).json((response))
     });
 };
